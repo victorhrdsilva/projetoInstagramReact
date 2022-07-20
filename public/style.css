@@ -195,6 +195,11 @@ body {
     margin-right: 6px;
 }
 
+.post .fundo .acoes div:first-child ion-icon[name=heart] {
+    fill: rgb(255, 15, 15);
+    transition: 0.2s ease-in-out;
+}
+
 .post .fundo .curtidas {
     display: flex;
     align-items: center;
